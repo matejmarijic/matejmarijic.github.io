@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  background-color: #0D1718;
+}
+
+li {
+  list-style: none;
+  display: inline-block
+}
+
+#rowcontainera {
+  color: #bbbbbb !important;
+}
+
+a {
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+h1, h2, h4 {
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.btn {
+  transition: all 300ms ease-in-out;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #00a3ff !important;
+  border: 1px solid #fff !important;
+}
+
+/*NAVIGATION*/
+
+.navbar {
+  background-color: #14252E !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.navbar a {
+  color: #fff !important;
+  opacity: 0.7;
+}
+
+.nav a:hover {
+  opacity: 1;
+  background-color: #111111 !important;
+}
+
+/*HEADER*/
+
+.header {
+  height: 600px;
+  width: 100%;
+  padding: 30px 0 30px;
+  margin-top: 50px;
+  background-image: url("../images/mountains.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #2F4F4F;
+}
+
+.header img {
+  height: 250px;
+  width: 300px;
+  margin: 70px 0 0 40px;
+}
+
+@media(max-width:768px) {
+  .header {
+    padding: 30px;
+    height: 750px;
+  }
+  .header img {
+    width: 90%;
+    height: 300px;
+    margin: 20px 0 0 20px;
+  }
+  .header h1 {
+    font-size: 25px;
+  }
+  .header h2 {
+    font-size: 20px;
+  }
+  .header p {
+    font-size: 15px;
+  }
+}
+
+.about {
+  padding: 50px 0 80px;
+  text-align: center;
+}
+
+.about h2, .about h4 {
+  color: #bbbbbb;
+  margin: 20px 0 20px;
+}
+
+.about p {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+
+.about img {
+  height: 250px;
+  width: 300px;
+}
+
+.learning {
+  padding: 80px 0 80px;
+  text-align: center;
+}
+
+.learning h2, .learning h4 {
+  color: #bbbbbb;
+  margin: 20px 0 20px;
+}
+
+.learning p {
+  color: #bbbbbb;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+
+@media(max-width:768px) {
+  .learning {
+    padding: 30px;
+  }
+}
+
+/*portfolio*/
+
+.portfolio {
+  padding: 50px 0 80px;
+  text-align: center;
+  background-color: #151e1f;
+}
+
+.rowcontainerb {
+  text-align: center;
+}
+
+.portfolio h2, .portfolio p {
+  color: #bbbbbb;
+}
+
+.portfolio .packages {
+  padding: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.single-portfolio:hover .portfolio-img {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+  transition: 0.5s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.packages p {
+  color: #737373;
+}
+
+.packages button {
+  color: #fff;
+  background-color: #1E90FF;
+  border-color: #1E90FF;
+  margin-top: 10px;
+}
+
+@media(max-width:768px) {
+  .portfolio {
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .portfolio {
+    width: 80%;
+  }
+}
+
+/*CONTACT*/
+
+.contact {
+  padding: 50px 0 80px;
+  text-align: center;
+}
+
+.contact p {
+  padding-bottom: 80px;
+  color: #bbbbbb;
+}
+
+.contact h2 {
+  color: #bbbbbb;
+  margin: 20px 0 20px;
+}
+
+.contact .input-group {
+  margin-bottom: 25px;
+}
+
+.contact .form-control {
+  border-radius: 0 !important;
+}
+
+.contact span {
+  border-radius: 0 !important;
+}
+
+.contact .btn {
+  margin-top: -12px;
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #1E90FF;
+  color: #fff;
+}
+
+.contact .btn:hover {
+  background-color: #696969 !important;
+  color: #fff !important;
+}
+
+/*FOOTER*/
+
+.footer {
+  padding: 30px;
+  color: #cccccc;
+  background-color: #222222;
+}
+
+.logo {
+  margin-top: -6px;
+}
