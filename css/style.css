@@ -66,7 +66,7 @@ p {
 }
 
 .navbar a {
-  color: #fff !important;
+  color: #517984 !important;
   opacity: 0.7;
 }
 
@@ -93,6 +93,7 @@ p {
 .header img {
   height: 250px;
   width: 300px;
+  margin: 70px 0 0 40px;
 }
 
 @media(max-width:768px) {
@@ -170,14 +171,14 @@ p {
   text-align: center;
 }
 
-.portfolio h2, .portfolio p {
+.portfolio h2, .portfolio h3, .portfolio p{
   color: #bbbbbb;
 }
 
 .portfolio .packages {
   padding: 30px;
-  border: 1px solid #ccc;
-  background-color: #fff;
+  border: 1px solid #777;
+  background-color: #0d1718;
   border-radius: 5px;
   margin-top: 30px;
 }
@@ -197,7 +198,7 @@ img {
 }
 
 .packages p {
-  color: #737373;
+  color: #9d9d9d;
 }
 
 .packages button {
