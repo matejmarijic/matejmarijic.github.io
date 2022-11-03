@@ -49,6 +49,7 @@ p {
   transition: all 300ms ease-in-out;
   font-weight: 500 !important;
   text-transform: uppercase;
+  background-color: #1E90FF;
 }
 
 .btn:hover {
@@ -189,6 +190,10 @@ p {
   -o-transform: scale(1.15);
   transform: scale(1.15);
   transition: 0.5s;
+}
+.portfolio-img{
+      width:  215px;
+      height: 245px;
 }
 
 img {
